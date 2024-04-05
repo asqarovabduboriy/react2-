@@ -1,0 +1,84 @@
+.category_div {
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    width: 20px;
+    height: 40px;
+}
+
+.category_title {
+    color: rgb(219, 68, 68);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.category_wrapper_element {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 94px;
+}
+
+.title_h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.card_category {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    width: 170px;
+}
+
+.card_category:hover {
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(219, 68, 68);
+    color: white;
+
+    p {
+        color: white;
+    }
+}
+
+.phones {
+    margin: 0 auto;
+}
+
+.card_title {
+    margin-top: 25px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    p {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
+
+.category_cards_wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.linea {
+    border: 0.5px solid rgb(0, 0, 0);
+    opacity: 0.3;
+    margin-bottom: 70px;
+}

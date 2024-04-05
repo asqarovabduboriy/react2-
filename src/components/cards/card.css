@@ -1,0 +1,116 @@
+.title_cards button {
+    background: rgb(245, 245, 245);
+    border: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
+
+.title_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_two {
+    position: relative;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+    width: 270px;
+}
+
+.imgs_card {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.imgs_card img {
+    width: 200px;
+    height: 200px;
+}
+
+.icon_container_card button {
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.icon_two {
+    font-size: 16px;
+}
+
+.icon_container_card {
+    position: absolute;
+    left: 220px;
+    top: 12px;
+    display: grid;
+    grid-gap: 8px;
+}
+
+.star_content {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+
+    span {
+        color: red;
+    }
+
+    p {
+        color: red;
+    }
+}
+
+.card_btn {
+    margin-bottom: 16px;
+
+}
+
+.card_btn button {
+    border-radius: 0px 0px 4px 4px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    width: 270px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cards_wrapper_two {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btn_wrapper button {
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    padding: 16px 48px 16px 48px;
+    color: rgb(250, 250, 250);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+.btn_wrapper{
+    display: flex;
+    justify-content: center;
+}
